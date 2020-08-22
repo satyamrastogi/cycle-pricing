@@ -1,0 +1,110 @@
+{
+  "frame": {
+    "steelFrame": [
+      {
+        "objectName": "steelFrame",
+        "price": 344,
+        "effectiveDateFrom": 123,
+        "effectiveDateTo": 123456
+      },
+      {
+        "objectName": "steelFrame",
+        "price": 444,
+        "effectiveDateFrom": 123457,
+        "effectiveDateTo": 1234567
+      }
+    ],
+    "carbonFrame": [
+      {
+        "objectName": "carbonFrame",
+        "price": 644,
+        "effectiveDateFrom": 123,
+        "effectiveDateTo": 123456
+      },
+      {
+        "objectName": "carbonFrame",
+        "price": 744,
+        "effectiveDateFrom": 123457,
+        "effectiveDateTo": 1234567
+      }
+    ]
+  },
+  "brake": {
+    "rubber": [
+      {
+        "objectName": "rubber",
+        "price": 344,
+        "effectiveDateFrom": 123,
+        "effectiveDateTo": 123456
+      },
+      {
+        "objectName": "rubber",
+        "price": 444,
+        "effectiveDateFrom": 123457,
+        "effectiveDateTo": 1234567
+      }
+    ],
+    "disc": [
+      {
+        "objectName": "disc",
+        "price": 644,
+        "effectiveDateFrom": 123,
+        "effectiveDateTo": 123456
+      },
+      {
+        "objectName": "disc",
+        "price": 744,
+        "effectiveDateFrom": 123457,
+        "effectiveDateTo": 1234567
+      }
+    ]
+  },
+  "tyre": {
+    "tubeless": [
+      {
+        "objectName": "tubeless",
+        "price": 344,
+        "effectiveDateFrom": 123457,
+        "effectiveDateTo": 1234567
+      },
+      {
+        "objectName": "tubeless",
+        "price": 344,
+        "effectiveDateFrom": 123457,
+        "effectiveDateTo": 1234567
+      }
+    ]
+  },
+  "handel": {
+    "steel": [
+      {
+        "objectName": "steel",
+        "price": 344,
+        "effectiveDateFrom": 123,
+        "effectiveDateTo": 123456
+      },
+      {
+        "objectName": "steel",
+        "price": 344,
+        "effectiveDateFrom": 123457,
+        "effectiveDateTo": 1234567
+      }
+    ]
+  },
+  "gear": {
+    "4gear": [
+      {
+        "objectName": "4gear",
+        "price": 344,
+        "effectiveDateFrom": 123,
+        "effectiveDateTo": 123456
+      },
+      {
+        "objectName": "4gear",
+        "price": 344,
+        "effectiveDateFrom": 123457,
+        "effectiveDateTo": 1234567
+      }
+    ]
+  }
+}
