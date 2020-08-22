@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Vector;
 import java.util.concurrent.ConcurrentMap;
 
 @Slf4j
@@ -22,9 +23,9 @@ public class CycleController {
     private ThreadingServiceImpl threadingService;
 
     @GetMapping("/cycle/pricing")
-    public ResponseEntity<ResponseObject<ConcurrentMap<String,Integer>>> findThePriceOfCycleList(@RequestBody ResponseObject<List<Map<String, List<CustomerPricing>>>> cycleList){
+    public ResponseEntity<ResponseObject<Vector<String>>> findThePriceOfCycleList(@RequestBody ResponseObject<List<Map<String, List<CustomerPricing>>>> cycleList){
         log.info("findThePriceOfCycleList with requestBody :{}",cycleList);
-        ResponseObject<ConcurrentMap<String,Integer>> responseObject = new ResponseObject<>();
+        ResponseObject<Vector<String>> responseObject = new ResponseObject<>();
         responseObject = threadingService.findTheResultOfCycles(cycleList.getResponse());
         log.info("findThePriceOfCycleList with response :{}",responseObject);
         return ResponseEntity.status(responseObject.getStatus()).body(responseObject);

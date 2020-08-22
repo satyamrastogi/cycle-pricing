@@ -5,8 +5,8 @@ import com.revamp.cyclepricing.model.CustomerPricing;
 
 import java.util.List;
 import java.util.Map;
-import java.util.concurrent.ConcurrentMap;
+import java.util.Vector;
 
 public interface ThreadingService {
-    ResponseObject<ConcurrentMap<String,Integer>> findTheResultOfCycles(List<Map<String, List<CustomerPricing>>> cycleList);
+    ResponseObject<Vector<String>> findTheResultOfCycles(List<Map<String, List<CustomerPricing>>> cycleList);
 }
